@@ -5,8 +5,17 @@ html {
 }
 
 body {
-    background-color: #C1FFB0
+    background-color: #C1FFB0;
+    margin: 0 auto;
 }
-    h1 {
-        border: 1px solid black;
-    }
+    
+h1 {
+    border: 1px solid black;
+}
+
+.header {
+    background-color: black;
+    height: 60px;
+    top:0px;
+    width:100%;
+}
