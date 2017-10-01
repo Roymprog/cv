@@ -7,7 +7,7 @@
 }
 
 .dropdownbtn:hover {
-    background-color: #C1FFB0;
+    border: 1px solid #C1FFB0;
 }
 
 /* Dropdown Content (Hidden by Default) */
