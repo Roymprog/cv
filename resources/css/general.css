@@ -33,6 +33,16 @@ img {
     max-height:100%;
 }
 
-profile-pic {
+#profile-pic {
     float: center;
+    position: absolute;
+}
+
+.img-circle {
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.img-box {
+    text-align: center;
 }
