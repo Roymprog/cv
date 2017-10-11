@@ -16,14 +16,14 @@ h1 {
 #header {
     background-color: black;
     height: 60px;
-    width:100%;
+    width: 100%;
     position: fixed;
     top: 0px;
     z-index: 1;
 }
 
 main {
-    position: relative;;
+    position: relative;
     top: 60px;
     margin: 0px 8px 0px 8px;
 }
@@ -45,4 +45,10 @@ img {
 
 .img-box {
     text-align: center;
+}
+
+.bg-white {
+    background-color: white;
+    margin-left: -8px;
+    margin-right: -8px;
 }
