@@ -8,11 +8,6 @@ body {
     background-color: #C1FFB0;
     margin: 0 auto;
 }
-    
-h1 {
-    border: 1px solid black;
-    margin-top: 0px;
-}
 
 #header {
     background-color: black;
@@ -47,10 +42,15 @@ img {
     text-align: center;
 }
 
-/* each even child element of main gets white background */
-main > :nth-of-type(2n) {
-    background-color: white;
+main > div {
     margin-top: 0px;
+    margin-bottom: 0px;
+}
+/* each even child element of main gets white background 
+padding 1px is present, so the h1 margin is filled with white BG*/
+main > :nth-of-type(2n) {
+    padding-top: 1px;
+    background-color: white;
 }
 
 /* Each element that is a part of a 'chapter' */
