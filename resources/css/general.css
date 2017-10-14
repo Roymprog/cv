@@ -2,6 +2,12 @@ html {
     font-family: mr-eaves-modern, sans-serif;
     font-style: normal;
     font-weight: 200;
+    overflow-y: scroll;
+}
+
+/* Fits all content in the screen box ignoring scroll bars */
+* {
+    box-sizing: border-box;
 }
 
 body {
@@ -39,6 +45,8 @@ img {
 }
 
 .img-box {
+    margin-left: 0px;
+    margin-right: 0px;
     text-align: center;
 }
 
