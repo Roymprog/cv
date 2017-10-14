@@ -11,6 +11,7 @@ body {
     
 h1 {
     border: 1px solid black;
+    margin-top: 0px;
 }
 
 #header {
@@ -25,7 +26,6 @@ h1 {
 main {
     position: relative;
     top: 60px;
-    margin: 0px 8px 0px 8px;
 }
 
 img {
@@ -47,8 +47,14 @@ img {
     text-align: center;
 }
 
-.bg-white {
+/* each even child element of main gets white background */
+main > :nth-of-type(2n) {
     background-color: white;
-    margin-left: -8px;
-    margin-right: -8px;
+    margin-top: 0px;
+}
+
+/* Each element that is a part of a 'chapter' */
+main > div > * {
+    margin-left: 8px;
+    margin-right: 8px;
 }
