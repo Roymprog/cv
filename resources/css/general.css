@@ -35,7 +35,6 @@ img {
 }
 
 #profile-pic {
-    float: center;
     position: absolute;
 }
 
@@ -44,10 +43,11 @@ img {
     border: 2px solid white;
 }
 
+/* Center image and set size to 300px */
 .img-box {
-    margin-left: 0px;
-    margin-right: 0px;
-    text-align: center;
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
 }
 
 main > div {
