@@ -1,0 +1,7 @@
+@media (min-width: 655px) {
+    .content {
+        width: 60%;
+        max-width: 100%;
+    }
+
+}

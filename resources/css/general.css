@@ -35,8 +35,19 @@ img {
     max-height:100%;
 }
 
+h1, h2, h3 {
+    text-align: center;
+}
+
 #profile-pic {
     position: absolute;
+}
+
+.content {
+    max-width: 393px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin: auto;
 }
 
 .img-circle {
@@ -60,10 +71,4 @@ padding 1px is present, so the h1 margin is filled with white BG*/
 main > :nth-of-type(2n) {
     padding-top: 1px;
     background-color: white;
-}
-
-/* Each element that is a part of a 'chapter' */
-main > div > * {
-    margin-left: 8px;
-    margin-right: 8px;
 }
