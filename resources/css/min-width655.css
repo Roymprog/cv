@@ -1,7 +1,22 @@
 @media (min-width: 655px) {
+    html {
+        /* overflow-y: hidden; */
+    }
+
+    nav {
+        display: none;
+    }
+
+    main {
+        top: 0px;
+    }
+
+    aside {
+        visibility: visible;
+    }
+
     .content {
         width: 60%;
         max-width: 100%;
     }
-
 }

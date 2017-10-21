@@ -2,7 +2,6 @@ html {
     font-family: mr-eaves-modern, sans-serif;
     font-style: normal;
     font-weight: 200;
-    overflow-y: scroll;
     text-align: justify;
 }
 
@@ -39,8 +38,26 @@ h1, h2, h3 {
     text-align: center;
 }
 
-#profile-pic {
-    position: absolute;
+aside {
+    visibility: hidden;
+    width: 20%;
+    position: fixed;
+    top: 20%;
+    right: 0;
+    z-index: 1;
+}
+
+aside > table {
+    min-height: 60vh;
+    background-color: black;
+    color: white;
+}
+
+table {
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    margin: auto;
 }
 
 .content {
