@@ -47,24 +47,28 @@ aside {
     z-index: 1;
 }
 
-aside > div > table {
+.table-wrapper {
     min-height: 60vh;
-    width: 50%;
     text-align: center;
-    margin: auto;
+    background-color: black;
+    right: 5%;
+    width: 10%;
+    position: fixed;
+    z-index: 2;
 }
 
-aside > div {
-    position: absolute;
+table {
+    min-height: 60vh;
+    color: white;
+    z-index: 4;
 }
 
 #scrollbar {
     background-color: #002CA7;
-}
-
-table {
-    background-color: black;
-    color: white;
+    width: 10%;
+    right: 5%;
+    position: fixed;
+    z-index: 3;
 }
 
 .content {

@@ -9,10 +9,11 @@
     <link rel="stylesheet" href="resources/css/dropdownMenu.css">
     <link rel="stylesheet" href="resources/css/min-width655.css">
     <script src="resources/js/dropdownMenu.js"></script>
+    <script src="resources/js/scrollbar.js"></script>
     <!-- Design from bottom up 320x569 to 1920x1080 -->
 </head>
 
-<body>
+<body onload="setHeight()">
     <nav>
         <img src="/resources/images/toc.png" alt="table-of-contents" class="dropdownbtn nav-icon" onclick="showContent()"></img>
         <div id="toc" class="dropdown-content">
@@ -25,17 +26,19 @@
         <div>
             <div id="scrollbar">
             </div>
-            <table>
-                <tr>
-                    <td><strong>Education</strong></td>
-                </tr>
-                <tr>
-                    <td><strong>Internships</strong></td>
-                </tr>
-                <tr>
-                    <td><strong>Working experience</strong></td>
-                </tr>
-            </table>
+            <div class= "table-wrapper">
+                <table>
+                    <tr>
+                        <td><strong>Education</strong></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Internships</strong></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Working experience</strong></td>
+                    </tr>
+                </table>
+            </div>
         </div>
     </aside>
     <main>
