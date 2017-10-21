@@ -15,7 +15,7 @@ body {
     margin: 0 auto;
 }
 
-#header {
+nav {
     background-color: black;
     height: 60px;
     width: 100%;
@@ -47,17 +47,24 @@ aside {
     z-index: 1;
 }
 
-aside > table {
+aside > div > table {
     min-height: 60vh;
-    background-color: black;
-    color: white;
-}
-
-table {
-    height: 100%;
     width: 50%;
     text-align: center;
     margin: auto;
+}
+
+aside > div {
+    position: absolute;
+}
+
+#scrollbar {
+    background-color: #002CA7;
+}
+
+table {
+    background-color: black;
+    color: white;
 }
 
 .content {
