@@ -52,23 +52,26 @@ aside {
     text-align: center;
     background-color: black;
     right: 5%;
-    width: 10%;
+    width: 95px;
     position: fixed;
-    z-index: 2;
 }
 
 table {
-    min-height: 60vh;
+    height: 60vh;
+}
+
+table td {
+    position: relative;
+    z-index: 3;
     color: white;
-    z-index: 4;
 }
 
 #scrollbar {
     background-color: #002CA7;
-    width: 10%;
+    width: 95px;
     right: 5%;
     position: fixed;
-    z-index: 3;
+    z-index: 2;
 }
 
 .content {
