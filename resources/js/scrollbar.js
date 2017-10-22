@@ -26,5 +26,6 @@ window.addEventListener('scroll', function (e) {
 
     var scrollbar = document.getElementById('scrollbar');
     scrollbar.style.top = scrollbarYPosition + 'px';
-
 });
+
+window.addEventListener("resize", setHeight);
